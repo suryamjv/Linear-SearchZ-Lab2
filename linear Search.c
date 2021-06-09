@@ -1,4 +1,5 @@
-/*      ALGORITHM TO PERFORM LINEAR SEARCH FOR A GIVEN LIST
+					/*  ALGORITHM TO PERFORM LINEAR SEARCH FOR A GIVEN LIST */
+/*
 Step1 : start
 step2 : declare n,i,val,pos,option
 step3 : input n 
@@ -55,6 +56,7 @@ step22: IF pos!=0
            GO TO step23
 step23 : stop
 */
+					/* PROGRAM FOR LINEAR SEARCH USING RECURSIVE AND NON-RECURSIVE FUNCTION*/
 #include<stdio.h>
 void linear_search(int val,int n,int arr[*]);		//non-recursive function
 int linear_search_re(int val,int n,int arr[*]);		//recursive function
